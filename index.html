@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <form action="">
+        <h1>Restaurant Survey Form</h1>
+        <h4>Thank you for providing feedback, so that we can serve you better!</h4>
+        <label for="name">Name</label>
+        <input name="name" type="text" placeholder="Enter your name" id="name">
+        <br>
+        <label for="surname">Surname</label>
+        <input name="surname" type="text" placeholder="Enter your surname" 
+               id="surname"><br>
+        <label for="email">Email</label>
+        <input name="email" type="text" placeholder="user@email.com" 
+               id="email"><br>
+        <h2>Which option describes your dining experience?</h2>
+        <label for="satisfaction"></label>
+        <select name="satisfaction" id="satisfaction">
+            <option value="Excellent">Excellent 😍</option>
+            <option value="Great">Great 😄</option>
+            <option value="Okay">Okay 😐</option>
+            <option value="Horrible">Horrible 🤢</option>
+        </select>
+        <h2>Would you recommend us to a friend?</h2>
+        <input type="radio" name="recommend" value="Yes" id="yes" checked>
+        <label for="yes">Yes</label><br>
+        <input type="radio" name="recommend" value="No" id="no">
+        <label for="no">No</label><br>       
+        <input type="radio" name="recommend" value="Maybe" id="maybe">
+        <label for="maybe">Maybe</label><br>
+        <h2>What was your favourite part of your visit?</h2>
+        <label for="favourite">The </label>
+        <select name="favourite" id="favourite">
+            <option value="Decor">Decor</option>
+            <option value="Service">Service</option>
+            <option value="Food">Food</option>
+            <option value="Drinks">Drinks</option>
+        </select>
+        <h2>What would you like to see improved? (Select all that apply)</h2>
+        <label for="decor">Decor</label>
+        <input name="decor" type="checkbox" value="Decor" id="decor"><br>
+        <label for="service">Service</label>
+        <input name="service" type="checkbox" value="Service" id="service"><br>
+        <label for="food">Food</label>
+        <input name="food" type="checkbox" value="Food" id="food"><br>
+        <label for="drinks">Drinks</label>
+        <input name="drinks" type="checkbox" value="Drinks" id="drinks"><br>
+        <h2>Comments or Suggestions</h2>
+        <textarea rows="5" cols="40" 
+                  placeholder="We would appreciate your comments!"></textarea>
+        <br>
+        <button type="submit" value="Submit">Submit</button>
+    </form>
+</body>
+</html>

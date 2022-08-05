@@ -1,0 +1,39 @@
+body {
+    line-height: 1.5;
+    background-color: #202124;
+    color: #bdc1c6;
+    padding-left: 3rem;
+    font-family: sans-serif;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h4, h2 {
+    font-size: 30px;
+}
+
+form {
+    font-size: 25px;
+}
+
+label {
+    margin-bottom: 1rem;
+}
+
+input {
+    line-height: 2;
+}
+
+select {
+    font: inherit;
+}
+
+textarea {
+    font: inherit;
+}
+
+button[type=submit] {
+    font: inherit;
+}
